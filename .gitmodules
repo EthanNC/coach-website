@@ -1,0 +1,6 @@
+[submodule "hugo-artists-theme"]
+	path = hugo-artists-theme
+	url = https://github.com/digitalcraftsman/hugo-artists-theme
+[submodule "themes/artist/hugo-artists-theme"]
+	path = themes/artist/hugo-artists-theme
+	url = https://github.com/digitalcraftsman/hugo-artists-theme
