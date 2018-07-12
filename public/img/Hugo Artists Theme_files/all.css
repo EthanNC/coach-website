@@ -1,6 +1,6 @@
- /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
-  font-family: 'Numans', sans-serif;
+  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -605,16 +605,16 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
 
 header, footer {
   background-repeat: no-repeat, no-repeat;
-  background-size: 300px 300px, cover;
+  background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%;
-  background-blend-mode: normal; }
+  background-blend-mode: overlay, normal; }
 
 header {
-  background-position: -40px -80px, 30% 30%;
+  background-position: 30px 20px, 50% 50%;
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
-    height: 100px;
+    height: 50px;
     width: 50px;
     float: left;
     margin: 10px 0 0 30px; }
@@ -622,7 +622,7 @@ header {
       fill: rgba(0, 0, 0, 0.4); }
   header nav {
     float: right;
-    padding: 15px 30px 0 0; }
+    padding: 30px 30px 0 0; }
     header nav a {
       display: inline-block;
       margin-left: 20px;
@@ -633,23 +633,21 @@ header {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
-    color:slategray;
-    /* text-transform: uppercase; */
-
-    text-shadow: 3px 3px black;
+    color: white;
+    text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
     padding-top: 100px; }
     header h1 span {
       display: inline-block;
-      padding: 0.2em 0.5em;}
+      padding: 0.2em 0.5em;
+      border: white solid 10px; }
   header .kicker {
     text-align: center;
     letter-spacing: 0.05em;
     color: white;
-    text-shadow: 3px 3px black;
-    line-height: 2; }
+    line-height: 1; }
 
 @media (max-width: 640px) {
   header {
@@ -666,8 +664,7 @@ footer {
     padding: 50px 30px; }
     footer .lockup:after {
       content: "";
-      display: table;
-      clear: both; }
+      display: table;}
     footer .lockup .content-wrap {
       float: left;
       margin-left: 80px; }
@@ -675,7 +672,7 @@ footer {
         margin: 0;
         text-transform: uppercase;
         font-size: 12px;
-        color: rgba(0, 0, 0, 0.4); }
+        color: rgba(0, 0, 0, 0); }
       footer .lockup .content-wrap a {
         color: rgba(0, 0, 0, 0.5);
         display: inline-block;
@@ -712,20 +709,19 @@ footer {
   justify-content: space-between;
   -ms-flex-pack: justify; }
   .face-lockup .face-img {
-    border-radius: 40%;
+    border-radius: 50%;
     background-size: cover;
     background-position: center;
     background-image: url(../img/avatar.jpg);
-    height: 400px;
-    width: 1000px;
+    height: 200px;
+    width: 200px;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
     -webkit-order: 3;
     -moz-order: 3;
     order: 3;
-    -ms-flex-order: 3;
-  }
+    -ms-flex-order: 3; }
   .face-lockup [class^="icon-"] {
     height: 100px;
     width: 100px;
@@ -940,7 +936,7 @@ footer {
       .thumb-container label .thumb-overlay strong {
         display: block;
         padding: 0 9%;
-        color: darkorange;
+        color: white;
         font-weight: 300;
         font-size: 24px;
         text-transform: uppercase;
@@ -1116,7 +1112,7 @@ footer {
     .clients-mobile-nav span.active-client {
       border-color: #c99065; }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
   .clients-logos {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;

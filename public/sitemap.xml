@@ -3,17 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://pensive-yonath-f30055.netlify.com/hello/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-6/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-7/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/proj-8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://pensive-yonath-f30055.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://pensive-yonath-f30055.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pensive-yonath-f30055.netlify.com/work/</loc>
     <priority>0</priority>
   </url>
   
