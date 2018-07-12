@@ -605,12 +605,12 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
 
 header, footer {
   background-repeat: no-repeat, no-repeat;
-  background-size: 300px 300px, cover;
+  background-size: 200px 200px, cover;
   background-position: 30px 50px, 50% 50%;
   background-blend-mode: normal; }
 
 header {
-  background-position: -40px -80px, 30% 30%;
+  background-position: -30px -50px, 30% 30%;
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
@@ -661,7 +661,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
+  /* background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); } */ }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
