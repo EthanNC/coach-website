@@ -605,19 +605,20 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
 
 header, footer {
   background-repeat: no-repeat, no-repeat;
-  background-size: 125px 125px, cover;
-  background-position: 40px 60px, 50% 50%;
+  background-size: 150px 150px, cover;
+  background-position: 10px 60px, 50% 50%;
   background-blend-mode: normal; }
 
 header {
-  background-position: 0px -20px, 50% 50%;
+  background-position: -10px -30px, 50% 50%;
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
-  padding-bottom: 50px; }
+  padding-bottom: 300px; }
   header .logo {
     height: 100px;
     width: 100px;
     float: left;
-    margin: 10px 0 0 30px; }
+    margin: 10px 0 0 30px;
+    display: block; }
     header .logo path {
       fill: rgba(0, 0, 0, 0.4); }
   header nav {

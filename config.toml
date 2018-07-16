@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://pensive-yonath-f30055.netlify.com/"
 languageCode = "en-us"
-title = "Hugo Artists Theme"
+title = "Sutivan Construction"
 theme = "hugo-artists-theme"
 
 [params]
@@ -42,7 +42,7 @@ theme = "hugo-artists-theme"
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "About Us"
+		title = "About"
 		bio = "Indago contumeliam in dignos merito hic earum bannis. Quia id hic capiat ex donec nam llmites voluptatum, vel ad eget fuga idiota iste adipisci sunt-justo natus cum RecUrro tandem ipsum regnet purus capere."
 
 
